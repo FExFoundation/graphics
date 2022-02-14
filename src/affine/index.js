@@ -90,6 +90,7 @@
             return triangle.u_time <= triangle.u_duration;
         });
         requestAnimationFrame(update);
+        
     }
     requestAnimationFrame(update);
     function randomTriangles() {
